@@ -1,0 +1,24 @@
+git config user.email ""
+git config user.name ""
+
+touch filename
+echo "" >> filename
+
+git add -A
+	-- add some changes to next commit
+git commit -m "text here, description of changes"
+	-- commiting the changes
+git status
+	-- checks status
+
+git branch
+	-- check all branches
+git branch branch-name
+	-- create new branch
+git checkout branch-name
+	--switch to new branch
+git merge branch-name
+	> go to master
+	> type this
+	> gets merged
+
