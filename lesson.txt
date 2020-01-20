@@ -21,4 +21,9 @@ git merge branch-name
 	> go to master
 	> type this
 	> gets merged
+git remote add origin "link"
+	-- pushes it to the cloud
+git push origin branch-name
+	-- pushes it into the cloud, specific branch name
 
+origin --> name of original file from remote
